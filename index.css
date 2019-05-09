@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    color: #fffdfc;
+    margin: 0;
+}
+
+nav {
+    color: #fffdfc;
+    background-color: #424249;
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    
+}
+
+#text1 {
+    margin-right: 10vw;
+    font-size: 4vw; 
+    margin-top: 6vh;
+    margin-left: 6vw;
+    font-family: 'Righteous', cursive;
+    position: relative;
+    right: 170px;
+}
+
+#text2 {
+    font-size: 3vw;
+    margin-top: 7vh;
+    margin-right: 5vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10vw;
+    height: 25vh;
+    width: 30vw;
+    color: #424249;
+    background-color: #efe8e1;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10vh;
+    position: relative;
+    
+}
+
+form {
+    height: 30vh;
+    width: 30vw;
+    color: #424249;
+    background-color: #54d2e5;
+    display:flex;
+    flex-direction: column;
+    margin-left: 50vw;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-bottom: 35px;
+    position: relative;
+    bottom: 200px;
+    padding-top: 30px;
+    
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#button {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    display: inline-block;
+    margin-left: 40px;
+    background-color: #424249;
+    color: #fffdfc;
+    border: none;
+}
+
+.text-box {
+    width: 250px;
+    margin-left: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: #424249 solid 1px;
+    position: relative;
+    bottom: 40px;
+}
+
+
+#pig {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    
+}
+
+#name {
+    position: relative;
+    top: 10px;
+}
+
+#bill {
+    position: relative;
+    bottom: 5px;
+}
+
